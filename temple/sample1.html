@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" spellcheck="false" >
+<head>
+    <meta charset="UTF-8">
+    <title>我的第一个页面</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="myScript.js"></script>
+</head>
+<body>
+    <!-- This is a comment -->
+<div id ="top">
+    <div style="width: 200px;float:left">
+            <ol style="color: antiquewhite;">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+                <li><script>
+                    document.write("hello world!")
+                </script><noscript>抱歉，您的浏览器不支持JavaScript</noscript></li>
+            </ol>
+       </div>
+        <div style="width: 100px;float:right">
+            <ol start="50">
+                <li>Co<span style="color: yellowgreen;">ff</span>ee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+        </div>
+    <div style="float: left">
+        <a href="http://www.baidu.com"><img onmouseenter="bigImage(this)" onmouseleave="nomalImage(this)" src="795215518497661441.jpg" width="200px" /></a>
+    </div>
+</div>
+
+
+    <h3 style="clear: both">标题3</h3>
+    <a id="tips">提示部分</a>
+    <button id="show" style="visibility: hidden;" onclick="document.getElementById('tips').style.visibility='visible';document.getElementById('hidden').style.visibility='visible';this.style.visibility='hidden'">显示</button>
+    <button id="hidden" onclick="document.getElementById('tips').style.visibility='hidden';document.getElementById('show').style.visibility='visible';this.style.visibility='hidden'">隐藏</button>
+    <p  class="chaolian">
+        <form name="myForm" action="sample1.html">
+            <fieldset>
+                <legend>Personalia</legend>
+                    Number: <input id="num"  type="number" min="2" max="5" maxlength=3 required onfocus="changeBC(this) "><label id="numtips"></label><br />
+                    Username: <input id="username"  type="text" name="user" onfocus="changeBC(this)"><label id="demo"></label>
+                    <br />
+                    Email:   <input type="text" id="email" name="email" onfocus="changeBC(this)"><label id="emailtps"></label><br />
+                    <button type="button" onclick="validateForm(), window.myFunction(), numCheck()">提交</button>
+            </fieldset>
+        </form>
+    </p>
+    <p>i'm a paragraph 我是一个段落<br /></p>
+    <button onclick="displayDate()">显示时间</button>
+    <p id="date"></p>
+    <table border="4" width="100%">
+        <caption>Monthly savings</caption>
+        <colgroup>
+            <col span="2" style="background-color:rosybrown">
+            <col style="background-color:yellowgreen">
+        </colgroup>
+        <thead>
+        <tr>
+            <th id="col">第一列</th>
+            <th>第二列</th>
+            <th>第三列</th>
+            <th>第四列</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>200</td>
+            <td>200</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td>ddd</td>
+            <td>dd</td>
+            <td>dddd</td>
+            <td>dd</td>
+        </tr>
+        </tfoot>
+    </table>
+
+<p>
+        本教程已教你如何使用 HTML 创建站点。
+        HTML 是一种在 Web 上使用的通用标记语言。HTML 允许你格式化文本，添加图片，创建链接、输入表单、框架和表格等等，并可将之存为文本文件，浏览器即可读取和显示。
+        HTML 的关键是标签，其作用是指示将出现的内容。
+        如需更多关于 HTML 的信息，请查看我们的 HTML 教程 和 HTML 参考手册 。
+    </p>
+    <a href="mailto:webmaster@example.com">发送e-mail</a>
+
+    <a href="#tips">跳到提示部分</a>
+    <br />
+    <div style="text-align:center;" class="chaolian">
+        <a href="http://www.w3school.com.cn" target="_blank">This is a link</a>
+        <a href="http://www.w3school.com.cn" target="_blank"><button>跳转</button></a>
+        <a href = "http://simu.jrgang.net" target="_blank" >"私募"SaaS</a>
+    </div>
+<a href="#tips">跳到提示部分</a>
+    <br />
+    <button onclick="newelement()">create</button>
+
+<br />
+
+</body>
+</html>

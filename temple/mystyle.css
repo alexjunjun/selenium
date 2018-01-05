@@ -1,0 +1,49 @@
+body {
+    background: #5f9ea0 url("795215518497661441.jpg")  no-repeat fixed left top;
+    font-size:110%;
+}
+
+#col{
+    color:blue;
+    background-color: red;
+}
+div.chaolian{
+    font-size: 20px;
+
+}
+
+#div.top{
+    background-color: yellow;
+    widgh:50%;
+    padding: 25px;
+    margin:30px;
+    border:15px solid green;
+
+}
+
+
+h3 {
+    background-color: antiquewhite;
+    color: aqua;
+}
+thead {color:green;}
+thead {background-color:rgba(255,244,0,0.15);}
+tbody {color:blue;}
+tfoot {color:red;}
+
+a:link {text-decoration: none;color: dodgerblue;}
+a:visited {text-decoration: none;color: darkgrey}
+a:hover {text-decoration: underline;color: blueviolet;
+    font-size: 1em;}
+a:active {text-decoration: underline;color: chartreuse}
+
+p {
+    font-size: 0.875em;
+    text-indent:50px;
+    text-transform: capitalize;
+}
+
+label {
+    color: red;
+    font-size:50%;
+}

@@ -1,0 +1,4 @@
+[const]
+FUNDMANAGER = //*[@id="managerSelect"]/div/ul[1]/li[2]/a
+CUSTOMERNAME = //*[@id="userSelect"]/div/ul[1]/li/a
+PRODUCT = //*[@id="productSelect"]/div/ul[1]/li[1]/a
